@@ -114,4 +114,10 @@ m.youtube.com##ytm-rich-section-renderer:has([d^="M17.77,10.32l-1.2"])
 m.youtube.com##ytm-search ytm-video-with-context-renderer:has([data-style="SHORTS"])
 ! YT Mobile - Hide the Shorts button on Channels
 m.youtube.com##[tab-title="Shorts"]
-
+! Hide next video video, which may accidentally be clicked since it's near the Play button
+www.youtube.com##.ytp-button.ytp-next-button
+! Hide Video Overlay - endscreen
+||www.youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^$script
+! Hide related searches and related results from the YouTube search results, only leaving organic matches for your search
+www.youtube.com##ytd-search ytd-item-section-renderer ytd-shelf-renderer
+www.youtube.com##ytd-search ytd-item-section-renderer ytd-horizontal-card-list-renderer
