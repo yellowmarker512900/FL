@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Title: Meine NSFW-Blockliste
+! Title: streaming blockliste
 ! Author: anonym
 ! Description: Blockiert NSFW, Popups und Tracker auf bekannten Seiten
 ! Version: 2025.04.25
