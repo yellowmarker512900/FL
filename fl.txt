@@ -54,6 +54,7 @@ megacloud.tv##.overlay
 ||ptichoolsougn.net^$popup
 
 ##.ad-container
+##.vjs-ad-overlay
 ##.vjs-ads
 ##.vjs-ad-overlay
 ##.vjs-control-bar:has(.ad-button)
