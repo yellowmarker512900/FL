@@ -53,20 +53,21 @@ megacloud.tv##.overlay
 ||vidcloud9.com^$popup
 ||ptichoolsougn.net^$popup
 
-##.ad-container
-##.vjs-ad-overlay
-##.vjs-ads
-##.vjs-ad-overlay
-##.vjs-control-bar:has(.ad-button)
-##.popup
-##.adsbox
-##.adblocker-message
-##.cookie-banner
-##.consent-popup
-##iframe[src*="ad"]
-##iframe[src*="popup"]
-##iframe[src*="doubleclick"]
-##div[class*="ad"]$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com
+##.ad-container$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|luluvdo.com|filemoon.to
+##.vjs-ads$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|luluvdo.com|filemoon.to
+##.vjs-ad-overlay$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|luluvdo.com|filemoon.to
+##.vjs-control-bar:has(.ad-button)$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|luluvdo.com|filemoon.to
+##.popup$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|luluvdo.com|filemoon.to
+##.overlay$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|luluvdo.com|filemoon.to
+##.adsbox$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|luluvdo.com|filemoon.to
+##.adblocker-message$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|luluvdo.com|filemoon.to
+##.cookie-banner$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|luluvdo.com|filemoon.to
+##.consent-popup$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|luluvdo.com|filemoon.to
+##iframe[src*="ad"]$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|luluvdo.com|filemoon.to
+##iframe[src*="popup"]$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|luluvdo.com|filemoon.to
+##iframe[src*="doubleclick"]$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|luluvdo.com|filemoon.to
+##div[class*="ad"]$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|luluvdo.com|filemoon.to
+##div[id*="ad"]$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|luluvdo.com|filemoon.to
 
 *$third-party,script,domain=voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv,important
 
