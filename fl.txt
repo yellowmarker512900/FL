@@ -73,16 +73,6 @@ megacloud.tv##.overlay
 
 *$third-party,script,domain=voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv,important
 
-
-##.cookie-banner
-##.cookie-notice
-##.cc-banner
-##.cookie-consent
-##.consent-popup
-##.consent-form
-##.eu-cookie-compliance
-##.cookie-overlay
-
 ! --- Instagram ---
 instagram.com##div[role="presentation"]:has(> div > div > div:has-text("Log in"))
 instagram.com##div[role="dialog"]
