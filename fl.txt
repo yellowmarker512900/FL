@@ -66,9 +66,6 @@ megacloud.tv##.overlay
 ##iframe[src*="ad"]
 ##iframe[src*="popup"]
 ##iframe[src*="doubleclick"]
-##.ad-container
-##.adsbox
-##.adblocker-message
 ##div[class*="ad"]$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com
 
 *$third-party,script,domain=voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv,important
