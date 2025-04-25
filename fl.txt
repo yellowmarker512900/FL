@@ -58,7 +58,6 @@ megacloud.tv##.overlay
 ##.vjs-ad-overlay
 ##.vjs-control-bar:has(.ad-button)
 ##.popup
-##.overlay
 ##.adsbox
 ##.adblocker-message
 ##.cookie-banner
@@ -79,43 +78,6 @@ megacloud.tv##.overlay
 ##.consent-form
 ##.eu-cookie-compliance
 ##.cookie-overlay
-
-! --- Block trans porn Seiten ---
-||*tranny*^
-||*shemale*^
-||*ladyboy*^
-||*newhalf*^
-||*tgirl*^
-||*transsex*^
-||*trans-porn*^
-||*futanari*^
-||*sissy-porn*^
-||*transxxx*^
-||*transvids*^
-||*shemalehd*^
-||*trannytube*^
-||*transangels*^
-||*tgporn*^
-||*sissyvideos*^
-||*femboy*^
-||*trap-porn*^
-||*transgasm*^
-||*chickswithdicks*^
-! --- Hardcore Pornoseiten Block ---
-||bunkr-albums.io^
-||bunkr.ru^
-||erome.com^
-||gotanynudes.com^
-||nudostar.com^
-||fappello.com^
-||fapello.com^
-||nudex.to^
-||leakemup.com^
-||leakedzone.com^
-||leakd.to^
-||leakpeek.com^
-||leakthis.to^
-||mega.nz/folder/*?*leak*
 
 ! --- Instagram ---
 instagram.com##div[role="presentation"]:has(> div > div > div:has-text("Log in"))
