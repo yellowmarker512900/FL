@@ -52,6 +52,8 @@ megacloud.tv##.overlay
 ||voeunbl.net^$popup
 ||vidcloud9.com^$popup
 ||ptichoolsougn.net^$popup
+||luluvdo.com^$popup
+||filemoon.to^$popup
 
 ##.ad-container$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|luluvdo.com|filemoon.to
 ##.vjs-ads$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|luluvdo.com|filemoon.to
