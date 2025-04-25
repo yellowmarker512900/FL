@@ -1,4 +1,10 @@
 [Adblock Plus 2.0]
+! Title: Meine NSFW-Blockliste
+! Author: anonym
+! Description: Blockiert NSFW, Popups und Tracker auf bekannten Seiten
+! Version: 2025.04.25
+! Homepage: https://github.com/nope
+! License: CC BY-NC-SA 4.0
 ! --- Watchseries.pe ---
 ||watchseries.pe^$popup
 watchseries.pe##.overlay
