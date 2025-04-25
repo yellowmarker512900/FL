@@ -91,3 +91,15 @@ megacloud.tv##.overlay
 ||leakpeek.com^
 ||leakthis.to^
 ||mega.nz/folder/*?*leak*
+
+! --- Instagram ---
+instagram.com##div[role="presentation"]:has(> div > div > div:has-text("Log in"))
+instagram.com##div[role="dialog"]
+instagram.com##body:style(overflow: auto !important)
+
+! --- TikTok ---
+tiktok.com##div[class*="login"]
+tiktok.com##div[class*="modal"]
+tiktok.com##div[class*="login-container"]
+tiktok.com##body:style(overflow: auto !important)
+
