@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Title: streaming blockliste
+! Title: Streaming Filter
 ! Author: anonym
 ! Description: Blockiert NSFW, Popups und Tracker auf bekannten Seiten
 ! Version: 2025.04.25
