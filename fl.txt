@@ -41,6 +41,24 @@
 ##.vjs-ad-overlay$domain=voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws
 ##.vjs-control-bar:has(.ad-button)$domain=voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws
 
+! --- Schutz für Streamingportale ---
+
+*$popup,domain=watchseries.pe|noxx.to|serienstream.to|aniworld.to|azmovies.ag
+*$third-party,script,domain=watchseries.pe|noxx.to|serienstream.to|aniworld.to|azmovies.ag
+
+||doubleclick.net^$domain=watchseries.pe|noxx.to|serienstream.to|aniworld.to|azmovies.ag
+||googlesyndication.com^$domain=watchseries.pe|noxx.to|serienstream.to|aniworld.to|azmovies.ag
+||googletagmanager.com^$domain=watchseries.pe|noxx.to|serienstream.to|aniworld.to|azmovies.ag
+||taboola.com^$domain=watchseries.pe|noxx.to|serienstream.to|aniworld.to|azmovies.ag
+||outbrain.com^$domain=watchseries.pe|noxx.to|serienstream.to|aniworld.to|azmovies.ag
+
+##.popup$domain=watchseries.pe|noxx.to|serienstream.to|aniworld.to|azmovies.ag
+##.overlay$domain=watchseries.pe|noxx.to|serienstream.to|aniworld.to|azmovies.ag
+##.adsbox$domain=watchseries.pe|noxx.to|serienstream.to|aniworld.to|azmovies.ag
+##.cookie-banner$domain=watchseries.pe|noxx.to|serienstream.to|aniworld.to|azmovies.ag
+##.consent-popup$domain=watchseries.pe|noxx.to|serienstream.to|aniworld.to|azmovies.ag
+
+
 ! --- Instagram ---
 instagram.com##div[role="presentation"]:has(> div > div > div:has-text("Log in"))
 instagram.com##div[role="dialog"]
