@@ -10,9 +10,6 @@
 
 *$third-party,script,domain=voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws|noxx.to|watchseries.pe|azmovies.ag,important
 
-
-*$third-party,script,domain=voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws|noxx.to|watchseries.pe|azmovies.ag,important
-
 ||voe.sx^$popup
 ||dood.watch^$popup
 ||doodstream.com^$popup
