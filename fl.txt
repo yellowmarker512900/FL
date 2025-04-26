@@ -37,7 +37,7 @@ megacloud.tv##.overlay
 
 ! --- Globale Popup-/Adblock-Filter für Hoster wie Voe, Dood, Mixdrop, Upcloud, Megacloud, Streamtape usw. ---
 
-*$third-party,script,domain=voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.top,important
+*$third-party,script,domain=voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws,important
 
 ||voe.sx^$popup
 ||dood.watch^$popup
