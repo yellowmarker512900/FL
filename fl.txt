@@ -51,26 +51,22 @@ megacloud.tv##.overlay
 ||streamlare.com^$popup
 ||voeunbl.net^$popup
 ||vidcloud9.com^$popup
-||ptichoolsougn.net^$popup
-||luluvdo.com^$popup
 ||filemoon.to^$popup
-||vidoza.net^$popup
+||luluvdo.com^$popup
+||loadx.live^$popup
+||loadx.cloud^$popup
 
-##.ad-container$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|vidoza.net
-##.vjs-ads$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|vidoza.net
-##.vjs-ad-overlay$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|vidoza.net
-##.vjs-control-bar:has(.ad-button)$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|vidoza.net
-##.popup$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|vidoza.net
-##.overlay$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|vidoza.net
-##.adsbox$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|vidoza.net
-##.adblocker-message$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|vidoza.net
-##.cookie-banner$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|vidoza.net
-##.consent-popup$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|vidoza.net
-##iframe[src*="ad"]$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|vidoza.net
-##iframe[src*="popup"]$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|vidoza.net
-##iframe[src*="doubleclick"]$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|vidoza.net
-##div[class*="ad"]$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|vidoza.net
-##div[id*="ad"]$domain=watchseries.pe|upcloud.host*
+##.ad-container$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|filemoon.to|vidmoly.to|luluvdo.com|loadx.live|loadx.cloud
+##.vjs-ads$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|filemoon.to|vidmoly.to|luluvdo.com|loadx.live|loadx.cloud
+##.vjs-ad-overlay$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|filemoon.to|vidmoly.to|luluvdo.com|loadx.live|loadx.cloud
+##.vjs-control-bar:has(.ad-button)$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|filemoon.to|vidmoly.to|luluvdo.com|loadx.live|loadx.cloud
+##.popup$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|filemoon.to|vidmoly.to|luluvdo.com|loadx.live|loadx.cloud
+##.overlay$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|filemoon.to|vidmoly.to|luluvdo.com|loadx.live|loadx.cloud
+##.adsbox$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|filemoon.to|vidmoly.to|luluvdo.com|loadx.live|loadx.cloud
+##.adblocker-message$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|filemoon.to|vidmoly.to|luluvdo.com|loadx.live|loadx.cloud
+##.cookie-banner$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|filemoon.to|vidmoly.to|luluvdo.com|loadx.live|loadx.cloud
+##.consent-popup$domain=watchseries.pe|upcloud.host|megacloud.tv|voe.sx|dood.watch|mixdrop.co|streamtape.com|streamhub.to|streamlare.com|filemoon.to|vidmoly.to|luluvdo.com|loadx.live|loadx.cloud
+
 
 
 *$third-party,script,domain=watchseries.pe|voe.sx|dood.watch|doodstream.com|dood.to|mixdrop.co|mixdrop.to|upcloud.host|megacloud.tv|streamtape.com|streamhub.to|streamlare.com|voeunbl.net|vidcloud9.com|vidoza.net,important
