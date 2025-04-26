@@ -5,39 +5,11 @@
 ! Version: 2025.04.25
 ! Homepage: https://github.com/nope
 ! License: CC BY-NC-SA 4.0
-! --- Watchseries.pe ---
-||watchseries.pe^$popup
-watchseries.pe##.overlay
-watchseries.pe##.popup
-watchseries.pe##.adsbox
-watchseries.pe##.player-ads
-watchseries.pe##.vjs-ad-overlay
-watchseries.pe##.vjs-ads
-watchseries.pe##.vjs-control-bar:has(.ad-button)
-watchseries.pe##iframe[src*="ad"]
-
-! --- Upcloud.host ---
-||upcloud.host^$popup
-upcloud.host##.ad-container
-upcloud.host##.vjs-ad-overlay
-upcloud.host##.vjs-ads
-upcloud.host##.popup
-upcloud.host##.overlay
-upcloud.host##.vjs-control-bar:has(.ad-button)
-
-! --- Megacloud.tv ---
-||megacloud.tv^$popup
-megacloud.tv##.ad-container
-megacloud.tv##.popup
-megacloud.tv##.adsbox
-megacloud.tv##.vjs-ad-overlay
-megacloud.tv##.vjs-ads
-megacloud.tv##.vjs-control-bar:has(.ad-button)
-megacloud.tv##.overlay
 
 ! --- Globale Popup-/Adblock-Filter für Hoster wie Voe, Dood, Mixdrop, Upcloud, Megacloud, Streamtape usw. ---
 
-*$third-party,script,domain=voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws,important
+*$third-party,script,domain=voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws|noxx.to|watchseries.pe|azmovies.ag,important
+
 
 ||voe.sx^$popup
 ||dood.watch^$popup
@@ -53,27 +25,31 @@ megacloud.tv##.overlay
 ||streamlare.com^$popup
 ||voeunbl.net^$popup
 ||vidcloud9.com^$popup
-||ptichoolsougn.net^$popup
 ||luluvdo.com^$popup
 ||filemoon.to^$popup
 ||vidoza.net^$popup
 ||loadx.ws^$popup
+||noxx.to^$popup
+||watchseries.pe^$popup
+||azmovies.ag^$popup
 
-##.ad-container$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws
-##.vjs-ads$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws
-##.vjs-ad-overlay$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws
-##.vjs-control-bar:has(.ad-button)$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws
-##.popup$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws
-##.overlay$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws
-##.adsbox$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws
-##.adblocker-message$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws
-##.cookie-banner$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws
-##.consent-popup$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws
-##iframe[src*="ad"]$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws
-##iframe[src*="popup"]$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws
-##iframe[src*="doubleclick"]$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws
-##div[class*="ad"]$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws
-##div[id*="ad"]$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws
+
+##.ad-container$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws|noxx.to|azmovies.ag
+##.vjs-ads$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws|noxx.to|azmovies.ag
+##.vjs-ad-overlay$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws|noxx.to|azmovies.ag
+##.vjs-control-bar:has(.ad-button)$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws|noxx.to|azmovies.ag
+##.popup$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws|noxx.to|azmovies.ag
+##.overlay$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws|noxx.to|azmovies.ag
+##.adsbox$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws|noxx.to|azmovies.ag
+##.adblocker-message$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws|noxx.to|azmovies.ag
+##.cookie-banner$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws|noxx.to|azmovies.ag
+##.consent-popup$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws|noxx.to|azmovies.ag
+##iframe[src*="ad"]$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws|noxx.to|azmovies.ag
+##iframe[src*="popup"]$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws|noxx.to|azmovies.ag
+##iframe[src*="doubleclick"]$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws|noxx.to|azmovies.ag
+##div[class*="ad"]$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws|noxx.to|azmovies.ag
+##div[id*="ad"]$domain=watchseries.pe|voe.sx|dood.watch|mixdrop.co|streamtape.com|upcloud.host|megacloud.tv|vidmoly.to|filemoon.to|luluvdo.com|vidoza.net|loadx.ws|noxx.to|azmovies.ag
+
 
 ! --- Instagram ---
 instagram.com##div[role="presentation"]:has(> div > div > div:has-text("Log in"))
