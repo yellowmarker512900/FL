@@ -125,17 +125,5 @@ www.youtube.com##ytd-search ytd-item-section-renderer ytd-horizontal-card-list-r
 ||api-adservices.apple.com^
 ||advp.apple.com^
 ||proxy-skadnetwork.apple.com^
-||fbs.smoot.apple.com^
-||books-analytics-events.apple.com^
-||notes-analytics-events.apple.com^
-||weather-analytics-events.apple.com^
-||stocks-analytics-events.apple.com^
-||news-app-events.apple.com^
-||news-events.apple.com^
-||news-notification-events.apple.com^
-||news-sports-events.apple.com^
-||odin-signals.apple.com^
-||performance-partners.apple.com^
-||internalcheck.apple.com^
-||beacon.shazam.com^
+
 
