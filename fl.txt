@@ -111,19 +111,18 @@ www.youtube.com##ytd-search ytd-item-section-renderer ytd-horizontal-card-list-r
 
 #apple
 
-||iad.apple.com^
-||iadcontent.apple.com^
-||iadmoo.apple.com^
-||iadsdk.apple.com^
-||iadworkbench.apple.com^
-||qa-iad.apple.com^
-||prd-usw2-requestattribution-iad.apple.com^
-||searchads.apple.com^
-||searchads.lb-apple.com^
-||searchads.apple.com.edgesuite.net^
-||advertising.apple.com^
-||api-adservices.apple.com^
-||advp.apple.com^
-||proxy-skadnetwork.apple.com^
 
+||fbs.smoot.apple.com^
+||books-analytics-events.apple.com^
+||notes-analytics-events.apple.com^
+||weather-analytics-events.apple.com^
+||stocks-analytics-events.apple.com^
+||news-app-events.apple.com^
+||news-events.apple.com^
+||news-notification-events.apple.com^
+||news-sports-events.apple.com^
+||odin-signals.apple.com^
+||performance-partners.apple.com^
+||internalcheck.apple.com^
+||beacon.shazam.com^
 
