@@ -104,6 +104,39 @@ m.youtube.com##[tab-title="Shorts"]
 www.youtube.com##.ytp-button.ytp-next-button
 ! Hide Video Overlay - endscreen
 ||www.youtube.com/s/player/*/player_ias.vflset/*/endscreen.js^$script
+
+#apple
+||iad.apple.com^
+||iadcontent.apple.com^
+||iadmoo.apple.com^
+||iadsdk.apple.com^
+||iadworkbench.apple.com^
+||qa-iad.apple.com^
+||uxintg-iad.apple.com^
+||uxintgiad.apple.com^
+||sdkintg-iad.apple.com^
+||sdkintgiad.apple.com^
+||prd-usw2-requestattribution-iad.apple.com^
+||searchads.apple.com^
+||searchads.lb-apple.com^
+||searchads.apple.com.edgesuite.net^
+||advertising.apple.com^
+||api-adservices.apple.com^
+||advp.apple.com^
+||proxy-skadnetwork.apple.com^
+||fbs.smoot.apple.com^
+||books-analytics-events.apple.com^
+||notes-analytics-events.apple.com^
+||weather-analytics-events.apple.com^
+||stocks-analytics-events.apple.com^
+||news-app-events.apple.com^
+||news-events.apple.com^
+||news-notification-events.apple.com^
+||news-sports-events.apple.com^
+||odin-signals.apple.com^
+||performance-partners.apple.com^
+||internalcheck.apple.com^
+||beacon.shazam.com^
 ! Hide related searches and related results from the YouTube search results, only leaving organic matches for your search
 www.youtube.com##ytd-search ytd-item-section-renderer ytd-shelf-renderer
 www.youtube.com##ytd-search ytd-item-section-renderer ytd-horizontal-card-list-renderer
