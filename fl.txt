@@ -117,8 +117,6 @@ www.youtube.com##ytd-search ytd-item-section-renderer ytd-horizontal-card-list-r
 ||iadsdk.apple.com^
 ||iadworkbench.apple.com^
 ||qa-iad.apple.com^
-||uxintg-iad.apple.com^
-||uxintgiad.apple.com^
 ||sdkintg-iad.apple.com^
 ||sdkintgiad.apple.com^
 ||prd-usw2-requestattribution-iad.apple.com^
